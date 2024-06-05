@@ -20,7 +20,7 @@ public class UserController {
             System.out.println("Registro de usuário bem-sucedido.");
             new CaixaView().iniciar();
         } else {
-            System.out.println("Falha no registro de usuário.");
+            System.out.println("Enviado a confirmação de cadastro ao Email.");
         }
     }
 
@@ -35,7 +35,7 @@ public class UserController {
             System.out.println("Autenticação bem-sucedida.");
             new CaixaView().iniciar();
         } else {
-            System.out.println("Falha na autenticação ou desafio adicional necessário.");
+            System.out.println("Falha na autenticação.");
         }
     }
 }
